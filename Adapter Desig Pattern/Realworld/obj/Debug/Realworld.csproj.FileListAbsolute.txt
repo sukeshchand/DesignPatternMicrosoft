@@ -1,0 +1,6 @@
+D:\design-patterns\DotNET\Structural Patterns\Adapter Design Pattern\Adapter .Net Example 2\Realworld\Realworld\bin\Debug\Realworld.exe.config
+D:\design-patterns\DotNET\Structural Patterns\Adapter Design Pattern\Adapter .Net Example 2\Realworld\Realworld\bin\Debug\Realworld.exe
+D:\design-patterns\DotNET\Structural Patterns\Adapter Design Pattern\Adapter .Net Example 2\Realworld\Realworld\bin\Debug\Realworld.pdb
+D:\design-patterns\DotNET\Structural Patterns\Adapter Design Pattern\Adapter .Net Example 2\Realworld\Realworld\obj\Debug\Realworld.csprojResolveAssemblyReference.cache
+D:\design-patterns\DotNET\Structural Patterns\Adapter Design Pattern\Adapter .Net Example 2\Realworld\Realworld\obj\Debug\Realworld.exe
+D:\design-patterns\DotNET\Structural Patterns\Adapter Design Pattern\Adapter .Net Example 2\Realworld\Realworld\obj\Debug\Realworld.pdb
