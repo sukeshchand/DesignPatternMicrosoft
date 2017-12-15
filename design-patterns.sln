@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0001 - Creational - Factory Pattern", "Factory Method Design pattern\Realworld\0001 - Creational - Factory Pattern.csproj", "{7C6C0D31-2934-4FE5-A7EC-FB569420D9F8}"
 EndProject
@@ -13,17 +13,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0003 - Creational - Abstrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0004 - Creational - Singleton pattern", "Singleton design pattern\0004 - Creational - Singleton pattern.csproj", "{B346CA25-0857-421B-8FE0-A2DC3B362C94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0006 - Structural - Facade Design Pattern", "Facade Design Pattern\0006 - Structural - Facade Design Pattern.csproj", "{34CAC053-1DFC-44A6-8221-C778DE6248E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0007 - Structural - Facade Design Pattern", "Facade Design Pattern\0007 - Structural - Facade Design Pattern.csproj", "{34CAC053-1DFC-44A6-8221-C778DE6248E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0010 - Behavioral - Observer Pattern", "Observer Design Pattern\0010 - Behavioral - Observer Pattern.csproj", "{67ECA9CC-5EF1-4689-9253-5EDB1D30D96A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0011 - Behavioral - Observer Pattern", "Observer Design Pattern\0011 - Behavioral - Observer Pattern.csproj", "{67ECA9CC-5EF1-4689-9253-5EDB1D30D96A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0009 - Behavioral - ChainOfResponsibility", "Chain Of Resp Design Pattern\0009 - Behavioral - ChainOfResponsibility.csproj", "{5226DFF3-FEBF-4553-B2E5-D7ECA8205C54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0010 - Behavioral - ChainOfResponsibility", "Chain Of Resp Design Pattern\0010 - Behavioral - ChainOfResponsibility.csproj", "{5226DFF3-FEBF-4553-B2E5-D7ECA8205C54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0011 - Behavioral - Strategy pattern", "Strategy Design Pattern\0011 - Behavioral - Strategy pattern.csproj", "{2C0717A4-9EDD-4C36-8922-9356C7859EB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0012 - Behavioral - Strategy pattern", "Strategy Design Pattern\0012 - Behavioral - Strategy pattern.csproj", "{2C0717A4-9EDD-4C36-8922-9356C7859EB6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0008 - Strucural - Proxy Pattern", "Proxy Pattern\0008 - Strucural - Proxy Pattern.csproj", "{FDCFC710-255B-49B5-A379-3F8B37257FC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0005 - Structural - Adapter pattern robot example", "Adapter Pattern Robort Example\0005 - Structural - Adapter pattern robot example.csproj", "{23AD8EDC-4F08-4976-9C14-C389EECC1DA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0006 - Structural - Adapter pattern robot example", "Adapter Pattern Robort Example\0006 - Structural - Adapter pattern robot example.csproj", "{23AD8EDC-4F08-4976-9C14-C389EECC1DA3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
