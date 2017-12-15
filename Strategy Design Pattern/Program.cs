@@ -10,55 +10,26 @@ namespace BridgeTechWhizz
         static void Main()
         {
             MovieTicketShopping movieTicketShopping = new MovieTicketShopping(new NoDiscountStrategy());
-            movieTicketShopping.BillAmount = 250;
-            while (true)
-            {
-                Console.WriteLine("Base Ticket Rate is : 250, Enter day to know the discount: ");
-                string input = Console.ReadLine();
-                if (input == "") break;
-                switch (input.ToLower())
-                {
-                    case "sunday":
-                        movieTicketShopping.CustomerName = "Sunday Customer";
-                        movieTicketShopping.CurrentDiscountStrategy = new NoDiscountStrategy();
-                        break;
-                    case "monday":
-                        movieTicketShopping.CustomerName = "Monday Customer";
-                        movieTicketShopping.CurrentDiscountStrategy = new MondayDiscountStrategy();
-                        break;
-                    case "tuesday":
-                        movieTicketShopping.CustomerName = "Tuesday Customer";
-                        movieTicketShopping.CurrentDiscountStrategy = new TuesdayDiscountStrategy();
-                        break;
-                    case "wednesday":
-                        movieTicketShopping.CustomerName = "Wednesday Customer";
-                        movieTicketShopping.CurrentDiscountStrategy = new WednesdayDiscountStrategy();
-                        break;
-                    case "thursday":
-                        movieTicketShopping.CustomerName = "Thursday Customer";
-                        movieTicketShopping.CurrentDiscountStrategy = new ThursdayDiscountStrategy();
-                        break;
-                    case "friday":
-                        movieTicketShopping.CustomerName = "Friday Customer";
-                        movieTicketShopping.CurrentDiscountStrategy = new FridayDiscountStrategy();
-                        break;
-                    case "saturday":
-                        movieTicketShopping.CustomerName = "Saturday Customer";
-                        movieTicketShopping.CurrentDiscountStrategy = new SaturdayDiscountStrategy();
-                        break;
-                    default:
-                        movieTicketShopping.CustomerName = "";
-                        Console.WriteLine("Invalid Day");
-                        break;
-                }
-                if (movieTicketShopping.CustomerName != "")
-                {
-                    Console.WriteLine("Ticket booked by " + movieTicketShopping.CustomerName + ", Bill Amount is : " + movieTicketShopping.GetFinalBillAmount());
-                    Console.WriteLine("\n\n\n");
-                    Console.ReadKey();
-                }
-            }
+            Console.WriteLine("Ticket booked by on Sunday, Bill Amount is : " + movieTicketShopping.GetFinalBillAmount());
+            Console.WriteLine("\n\n\n");
 
+            movieTicketShopping = new MovieTicketShopping(new MondayDiscountStrategy());
+            Console.WriteLine("Ticket booked on Monday" + movieTicketShopping.CustomerName + ", Bill Amount is : " + movieTicketShopping.GetFinalBillAmount());
+            Console.WriteLine("\n\n\n");
+
+            movieTicketShopping = new MovieTicketShopping(new TuesdayDiscountStrategy());
+            Console.WriteLine("Ticket booked on Tuesday" + movieTicketShopping.CustomerName + ", Bill Amount is : " + movieTicketShopping.GetFinalBillAmount());
+            Console.WriteLine("\n\n\n");
+
+            movieTicketShopping = new MovieTicketShopping(new WednesdayDiscountStrategy());
+            Console.WriteLine("Ticket booked on Wednesday" + movieTicketShopping.CustomerName + ", Bill Amount is : " + movieTicketShopping.GetFinalBillAmount());
+            Console.WriteLine("\n\n\n");
+
+            movieTicketShopping = new MovieTicketShopping(new ThursdayDiscountStrategy());
+            Console.WriteLine("Ticket booked on Thursday" + movieTicketShopping.CustomerName + ", Bill Amount is : " + movieTicketShopping.GetFinalBillAmount());
+            Console.WriteLine("\n\n\n");
+
+            Console.ReadKey();
         }
    }
 }

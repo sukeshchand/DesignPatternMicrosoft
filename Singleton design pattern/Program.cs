@@ -8,6 +8,7 @@ namespace BridgeTechWhizz
     /// </summary>
     class MainApp
     {
+       
         /// <summary>
         /// Entry point into console application.
         /// </summary>

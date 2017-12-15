@@ -11,6 +11,8 @@ namespace Workshop
                 PriceList priceList = new PriceList();
                 ProductDetails productDetails = new ProductDetails();
                 ShoppingCart shoppingCart = new ShoppingCart();
+
+
                 foreach (var purchaseItem in purchaseItems)
                 {
                     var productId = productDetails.GetProductIdByCode(purchaseItem.ItemCode);

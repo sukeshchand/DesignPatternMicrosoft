@@ -18,7 +18,7 @@ namespace BridgeTechWhizz
         public void CreateConnectionAndCommand() // factory method to decide connection and command type
         {
             Connection = new OleDbConnection();
-            Command = new OleDbCommand();
+            //Command = new OleDbCommand();
         }
 
         public void PrintConnection()

@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 namespace BridgeTechWhizz
 {
+
+    //simple factory
+
+
     /// <summary>
     /// The 'Creator' factory class
     /// </summary>
