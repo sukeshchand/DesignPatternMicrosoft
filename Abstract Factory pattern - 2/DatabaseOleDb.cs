@@ -9,16 +9,13 @@ namespace BridgeTechWhizz
     {
         public DatabaseOleDb()
         {
-            CreateConnectionAndCommand(); // calling factory method - Second factory method give the connection and command
+            CreateConnection(); // calling factory method - Second factory method give the connection and command
         }
         public DbConnection Connection { get; set; }
-        public DbCommand Command { get; set; }
-       
 
-        public void CreateConnectionAndCommand() // factory method to decide connection and command type
+        public void CreateConnection() // factory method to decide connection and command type
         {
             Connection = new OleDbConnection();
-            //Command = new OleDbCommand();
         }
 
         public void PrintConnection()

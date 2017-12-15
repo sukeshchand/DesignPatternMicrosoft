@@ -51,7 +51,7 @@
     <Compile Include="DatabaseOleDb.cs" />
     <Compile Include="DatabaseFactory.cs" />
     <Compile Include="IDatabase.cs" />
-    <Compile Include="Main.cs" />
+    <Compile Include="_Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

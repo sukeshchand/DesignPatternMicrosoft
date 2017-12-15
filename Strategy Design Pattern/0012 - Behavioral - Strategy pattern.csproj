@@ -51,7 +51,7 @@
     <Compile Include="Strategies\MondayDiscountStrategy.cs" />
     <Compile Include="MovieTicketShopping.cs" />
     <Compile Include="Strategies\NoDiscountStrategy.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="_Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Strategies\SaturdayDiscountStrategy.cs" />
     <Compile Include="Strategies\ThursdayDiscountStrategy.cs" />

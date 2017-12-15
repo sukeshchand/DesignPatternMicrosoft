@@ -52,7 +52,7 @@
     <Compile Include="Page_Education.cs" />
     <Compile Include="Page_Experience.cs" />
     <Compile Include="Page_Abstract.cs" />
-    <Compile Include="Main.cs" />
+    <Compile Include="_Main.cs" />
     <Compile Include="Page_PersonalDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Document_JobResume.cs" />
