@@ -1,9 +1,0 @@
-D:\design-patterns\DotNET-Modified\Factory Method Design pattern\Realworld\bin\Debug\Realworld.exe.config
-D:\design-patterns\DotNET-Modified\Factory Method Design pattern\Realworld\obj\Debug\Realworld.exe
-D:\design-patterns\DotNET-Modified\Factory Method Design pattern\Realworld\obj\Debug\Realworld.pdb
-D:\design-patterns\DotNET-Modified\Factory Method Design pattern\Realworld\bin\Debug\Realworld.exe
-D:\design-patterns\DotNET-Modified\Factory Method Design pattern\Realworld\bin\Debug\Realworld.pdb
-D:\design-patterns\DotNET-Modified\Factory Method Design pattern\Realworld\obj\Debug\0001 - Creational - Factory Pattern.csprojResolveAssemblyReference.cache
-D:\GitRepositoryTechWhizz\Factory Method Design pattern\Realworld\bin\Debug\Realworld.exe.config
-D:\GitRepositoryTechWhizz\Factory Method Design pattern\Realworld\obj\Debug\Realworld.exe
-D:\GitRepositoryTechWhizz\Factory Method Design pattern\Realworld\obj\Debug\Realworld.pdb
